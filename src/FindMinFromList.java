@@ -7,7 +7,7 @@ public class FindMinFromList {
         List<Integer> numbers = new ArrayList<>(20);
         Random getRandomNumbers = new Random();
         for (int i = 0; i < 20; i++) {
-            numbers.add(i, getRandomNumbers.nextInt(40) -20);
+            numbers.add(i, getRandomNumbers.nextInt(40) - 20);
         }
         for (int i = 0; i < 20; i++) {
             System.out.println(i + " element list = " + numbers.get(i));
