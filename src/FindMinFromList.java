@@ -17,11 +17,11 @@ public class FindMinFromList {
 
     }
 
-    public static int findMinNumb(List numbers) {
-        int min = (int) numbers.get(0);
-        for (int i = 0; i < numbers.size(); i++) {
-            if (min > (int) numbers.get(i)) {
-                min = (int) numbers.get(i);
+    public static int findMinNumb(List<Integer> numbers) {
+        int min = numbers.get(0);
+        for (Integer number : numbers) {
+            if (min > number) {
+                min = number;
             }
         }
         return min;
